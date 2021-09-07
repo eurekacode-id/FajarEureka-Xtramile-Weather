@@ -1,0 +1,18 @@
+.main-content {
+	position: absolute;
+	min-height: 320px;
+	top:70px;
+	background-color:rgb(188, 225, 255);
+	width: 85%;
+	align-items: center;
+	justify-content: center;
+}
+
+.main-content .content {
+	padding:25px;
+}
+
+.main {
+    margin-top: 5px;
+	margin-bottom: 50px;
+}

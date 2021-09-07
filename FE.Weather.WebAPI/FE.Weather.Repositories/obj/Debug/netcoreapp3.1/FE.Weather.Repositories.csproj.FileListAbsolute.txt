@@ -1,0 +1,15 @@
+C:\Users\Fajar Eureka\Desktop\FE.Weather\FE.Weather.WebAPI\FE.Weather.Repositories\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Fajar Eureka\Desktop\FE.Weather\FE.Weather.WebAPI\FE.Weather.Repositories\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Fajar Eureka\Desktop\FE.Weather\FE.Weather.WebAPI\FE.Weather.Repositories\bin\Debug\netcoreapp3.1\FE.Weather.Repositories.deps.json
+C:\Users\Fajar Eureka\Desktop\FE.Weather\FE.Weather.WebAPI\FE.Weather.Repositories\bin\Debug\netcoreapp3.1\FE.Weather.Repositories.dll
+C:\Users\Fajar Eureka\Desktop\FE.Weather\FE.Weather.WebAPI\FE.Weather.Repositories\bin\Debug\netcoreapp3.1\FE.Weather.Repositories.pdb
+C:\Users\Fajar Eureka\Desktop\FE.Weather\FE.Weather.WebAPI\FE.Weather.Repositories\bin\Debug\netcoreapp3.1\FE.Weather.Models.dll
+C:\Users\Fajar Eureka\Desktop\FE.Weather\FE.Weather.WebAPI\FE.Weather.Repositories\bin\Debug\netcoreapp3.1\FE.Weather.Models.pdb
+C:\Users\Fajar Eureka\Desktop\FE.Weather\FE.Weather.WebAPI\FE.Weather.Repositories\obj\Debug\netcoreapp3.1\FE.Weather.Repositories.csproj.AssemblyReference.cache
+C:\Users\Fajar Eureka\Desktop\FE.Weather\FE.Weather.WebAPI\FE.Weather.Repositories\obj\Debug\netcoreapp3.1\FE.Weather.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Fajar Eureka\Desktop\FE.Weather\FE.Weather.WebAPI\FE.Weather.Repositories\obj\Debug\netcoreapp3.1\FE.Weather.Repositories.AssemblyInfoInputs.cache
+C:\Users\Fajar Eureka\Desktop\FE.Weather\FE.Weather.WebAPI\FE.Weather.Repositories\obj\Debug\netcoreapp3.1\FE.Weather.Repositories.AssemblyInfo.cs
+C:\Users\Fajar Eureka\Desktop\FE.Weather\FE.Weather.WebAPI\FE.Weather.Repositories\obj\Debug\netcoreapp3.1\FE.Weather.Repositories.csproj.CoreCompileInputs.cache
+C:\Users\Fajar Eureka\Desktop\FE.Weather\FE.Weather.WebAPI\FE.Weather.Repositories\obj\Debug\netcoreapp3.1\FE.Weather.Repositories.csproj.CopyComplete
+C:\Users\Fajar Eureka\Desktop\FE.Weather\FE.Weather.WebAPI\FE.Weather.Repositories\obj\Debug\netcoreapp3.1\FE.Weather.Repositories.dll
+C:\Users\Fajar Eureka\Desktop\FE.Weather\FE.Weather.WebAPI\FE.Weather.Repositories\obj\Debug\netcoreapp3.1\FE.Weather.Repositories.pdb

@@ -1,0 +1,13 @@
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    display: flex;
+    background-color: #1976d2;
+    color: white;
+    font-weight: 600;
+    padding: 20px;
+    z-index: 100;
+}

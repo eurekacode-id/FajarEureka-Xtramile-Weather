@@ -1,0 +1,140 @@
+<div class="main-content p-grid p-nogutter">
+    <div class="p-col content p=grid">
+        <div class="p-col">
+            <div class="main">
+                <p-panel header="LOCATION">
+                    <div class="p-fluid">
+                        <div class="p-field p-grid">
+                            <label class="p-col-12 p-mb-2 p-md-2 p-mb-md-0">Country</label>
+                            <div class="p-col-12 p-md-4">
+                                <p-dropdown [options]="countryDdl" [filter]="true" 
+                                    [showClear]="true" placeholder="--Select--"
+                                    [(ngModel)]="selectedCountryId"
+                                    (onChange)="onCountryChanges($event)"
+                                    >
+                                </p-dropdown>
+                                <input id="currCountryId" [(ngModel)]='currCountryId' type="hidden" pInputText>
+                            </div>
+                        </div>
+                        <div class="p-field p-grid">
+                            <label class="p-col-12 p-mb-2 p-md-2 p-mb-md-0">City</label>
+                            <div class="p-col-12 p-md-4">
+                                <p-dropdown [options]="cityDdl" [filter]="true" 
+                                    [showClear]="true" placeholder="--Select--"
+                                    [(ngModel)]="selectedCity"
+                                    (onChange)="onCityChanges($event)"
+                                    >
+                                </p-dropdown>
+                                <input id="currCity" [(ngModel)]='currCity' type="hidden" pInputText>
+                            </div>
+                        </div>
+                    </div>
+                </p-panel>
+                <br>
+                <p-panel header="WEATHER REPORT" *ngIf="isShown">
+                    <div class="p-fluid">
+                        <div class="p-field p-grid">
+                            <label class="p-col-12 p-mb-2 p-md-2 p-mb-md-0">Location</label>
+                            <div class="p-col-6 p-md-4">
+                                Latitude: <input id="weather.coord.latitude" [(ngModel)]='weather.coord.latitude' type="text" readonly pInputText>
+                            </div>
+                            <div class="p-col-6 p-md-4">
+                                Longitude: <input id="weather.coord.longitude" [(ngModel)]='weather.coord.longitude' type="text" readonly pInputText>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="p-field p-grid">
+                            <label class="p-col-12 p-mb-2 p-md-2 p-mb-md-0">Weather Condition</label>
+                            <div class="p-col-12 p-md-4">
+                                Main: <input id="weather.weather.main" [(ngModel)]='weather.weather.main' type="text" readonly pInputText>
+                            </div>
+                            <div class="p-col-12 p-md-4">
+                                Description: <input id="weather.weather.description" [(ngModel)]='weather.weather.description' type="text" readonly pInputText>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="p-field p-grid">
+                            <label class="p-col-12 p-mb-2 p-md-2 p-mb-md-0">Temperature (K / F / C)</label>
+                            <div class="p-col-12 p-md-4">
+                                <label class="p-col-12 p-mb-2 p-md-2 p-mb-md-0">Temperature</label>
+                                <input id="weather.temperatureInKelvin.temp" [(ngModel)]='weather.temperatureInKelvin.temp' type="text" readonly pInputText>
+                                <input id="weather.temperatureInFahrenheit.temp" [(ngModel)]='weather.temperatureInFahrenheit.temp' type="text" readonly pInputText>
+                                <input id="weather.temperatureInCelcius.temp" [(ngModel)]='weather.temperatureInCelcius.temp' type="text" readonly pInputText>
+                            </div>
+                            <div class="p-col-12 p-md-4">
+                                <label class="p-col-12 p-mb-2 p-md-2 p-mb-md-0">Temp Min</label>
+                                <input id="weather.temperatureInKelvin.tempMin" [(ngModel)]='weather.temperatureInKelvin.tempMin' type="text" readonly pInputText>
+                                <input id="weather.temperatureInFahrenheit.tempMin" [(ngModel)]='weather.temperatureInFahrenheit.tempMin' type="text" readonly pInputText>
+                                <input id="weather.temperatureInCelcius.tempMin" [(ngModel)]='weather.temperatureInCelcius.tempMin' type="text" readonly pInputText>
+                            </div>
+                            <div class="p-col-12 p-md-4">
+                                <label class="p-col-12 p-mb-2 p-md-2 p-mb-md-0">Temp Max</label>
+                                <input id="weather.temperatureInKelvin.tempMax" [(ngModel)]='weather.temperatureInKelvin.tempMax' type="text" readonly pInputText>
+                                <input id="weather.temperatureInFahrenheit.tempMax" [(ngModel)]='weather.temperatureInFahrenheit.tempMax' type="text" readonly pInputText>
+                                <input id="weather.temperatureInCelcius.tempMax" [(ngModel)]='weather.temperatureInCelcius.tempMax' type="text" readonly pInputText>
+                            </div>
+                            <div class="p-col-12 p-md-4">
+                                <label class="p-col-12 p-mb-2 p-md-2 p-mb-md-0">Feels Like</label>
+                                <input id="weather.temperatureInKelvin.feelsLike" [(ngModel)]='weather.temperatureInKelvin.feelsLike' type="text" readonly pInputText>
+                                <input id="weather.temperatureInFahrenheit.feelsLike" [(ngModel)]='weather.temperatureInFahrenheit.feelsLike' type="text" readonly pInputText>
+                                <input id="weather.temperatureInCelcius.feelsLike" [(ngModel)]='weather.temperatureInCelcius.feelsLike' type="text" readonly pInputText>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="p-field p-grid">
+                            <label class="p-col-12 p-mb-2 p-md-2 p-mb-md-0">Pressure</label>
+                            <div class="p-col-6 p-md-4">
+                                <input id="weather.pressure" [(ngModel)]='weather.pressure' type="text" readonly pInputText>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="p-field p-grid">
+                            <label class="p-col-12 p-mb-2 p-md-2 p-mb-md-0">Humidity</label>
+                            <div class="p-col-6 p-md-4">
+                                <input id="weather.humidity" [(ngModel)]='weather.humidity' type="text" readonly pInputText>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="p-field p-grid">
+                            <label class="p-col-12 p-mb-2 p-md-2 p-mb-md-0">Visibility</label>
+                            <div class="p-col-6 p-md-4">
+                                <input id="weather.visibility" [(ngModel)]='weather.visibility' type="text" readonly pInputText>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="p-field p-grid">
+                            <label class="p-col-12 p-mb-2 p-md-2 p-mb-md-0">Wind Condition</label>
+                            <div class="p-col-12 p-md-4">
+                                <input id="weather.wind.speed" [(ngModel)]='weather.wind.speed' type="text" readonly pInputText>
+                            </div>
+                            <div class="p-col-12 p-md-4">
+                                <input id="weather.wind.direction" [(ngModel)]='weather.wind.direction' type="text" readonly pInputText>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="p-field p-grid">
+                            <label class="p-col-12 p-mb-2 p-md-2 p-mb-md-0">Clouds Intensity</label>
+                            <div class="p-col-6 p-md-4">
+                                <input id="weather.clouds" [(ngModel)]='weather.clouds' type="text" readonly pInputText>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="p-field p-grid">
+                            <label class="p-col-12 p-mb-2 p-md-2 p-mb-md-0">Sunrise</label>
+                            <div class="p-col-6 p-md-4">
+                                <input id="weather.sunrise" [(ngModel)]='weather.sunrise' type="text" readonly pInputText>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="p-field p-grid">
+                            <label class="p-col-12 p-mb-2 p-md-2 p-mb-md-0">Sunset</label>
+                            <div class="p-col-6 p-md-4">
+                                <input id="weather.sunset" [(ngModel)]='weather.sunset' type="text" readonly pInputText>
+                            </div>
+                        </div>
+                    </div>
+                </p-panel>
+            </div>
+        </div>
+    </div>
+</div>

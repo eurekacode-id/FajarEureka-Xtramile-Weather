@@ -1,0 +1,9 @@
+C:\Users\Fajar Eureka\Desktop\FajarEureka.Xtramile.Weather\FE.Xtramile.Weather.WebAPI\FajarEureka.Xtramile.Weather.Models\bin\Debug\netcoreapp3.1\FE.Xtramile.Weather.Models.deps.json
+C:\Users\Fajar Eureka\Desktop\FajarEureka.Xtramile.Weather\FE.Xtramile.Weather.WebAPI\FajarEureka.Xtramile.Weather.Models\bin\Debug\netcoreapp3.1\FE.Xtramile.Weather.Models.dll
+C:\Users\Fajar Eureka\Desktop\FajarEureka.Xtramile.Weather\FE.Xtramile.Weather.WebAPI\FajarEureka.Xtramile.Weather.Models\bin\Debug\netcoreapp3.1\FE.Xtramile.Weather.Models.pdb
+C:\Users\Fajar Eureka\Desktop\FajarEureka.Xtramile.Weather\FE.Xtramile.Weather.WebAPI\FajarEureka.Xtramile.Weather.Models\obj\Debug\netcoreapp3.1\FE.Xtramile.Weather.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Fajar Eureka\Desktop\FajarEureka.Xtramile.Weather\FE.Xtramile.Weather.WebAPI\FajarEureka.Xtramile.Weather.Models\obj\Debug\netcoreapp3.1\FE.Xtramile.Weather.Models.AssemblyInfoInputs.cache
+C:\Users\Fajar Eureka\Desktop\FajarEureka.Xtramile.Weather\FE.Xtramile.Weather.WebAPI\FajarEureka.Xtramile.Weather.Models\obj\Debug\netcoreapp3.1\FE.Xtramile.Weather.Models.AssemblyInfo.cs
+C:\Users\Fajar Eureka\Desktop\FajarEureka.Xtramile.Weather\FE.Xtramile.Weather.WebAPI\FajarEureka.Xtramile.Weather.Models\obj\Debug\netcoreapp3.1\FE.Xtramile.Weather.Models.csproj.CoreCompileInputs.cache
+C:\Users\Fajar Eureka\Desktop\FajarEureka.Xtramile.Weather\FE.Xtramile.Weather.WebAPI\FajarEureka.Xtramile.Weather.Models\obj\Debug\netcoreapp3.1\FE.Xtramile.Weather.Models.dll
+C:\Users\Fajar Eureka\Desktop\FajarEureka.Xtramile.Weather\FE.Xtramile.Weather.WebAPI\FajarEureka.Xtramile.Weather.Models\obj\Debug\netcoreapp3.1\FE.Xtramile.Weather.Models.pdb

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "7V4jN6f3+qasebYhJxWamxCYaaq6TllA1TPVO1FUbHWmK+JP+ftaDWzzSbYqFzgtdHizhuoQNGWUeLwv12g/Gg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Fajar Eureka\\Desktop\\FE.Weather\\FE.Weather.WebAPI\\FE.Weather.WebAPI\\FE.Weather.WebAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Fajar Eureka\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

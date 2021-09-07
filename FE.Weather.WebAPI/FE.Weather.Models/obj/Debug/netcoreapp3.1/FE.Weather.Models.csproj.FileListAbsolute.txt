@@ -1,0 +1,9 @@
+C:\Users\Fajar Eureka\Desktop\FE.Weather\FE.Weather.WebAPI\FE.Weather.Models\bin\Debug\netcoreapp3.1\FE.Weather.Models.deps.json
+C:\Users\Fajar Eureka\Desktop\FE.Weather\FE.Weather.WebAPI\FE.Weather.Models\bin\Debug\netcoreapp3.1\FE.Weather.Models.dll
+C:\Users\Fajar Eureka\Desktop\FE.Weather\FE.Weather.WebAPI\FE.Weather.Models\bin\Debug\netcoreapp3.1\FE.Weather.Models.pdb
+C:\Users\Fajar Eureka\Desktop\FE.Weather\FE.Weather.WebAPI\FE.Weather.Models\obj\Debug\netcoreapp3.1\FE.Weather.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Fajar Eureka\Desktop\FE.Weather\FE.Weather.WebAPI\FE.Weather.Models\obj\Debug\netcoreapp3.1\FE.Weather.Models.AssemblyInfoInputs.cache
+C:\Users\Fajar Eureka\Desktop\FE.Weather\FE.Weather.WebAPI\FE.Weather.Models\obj\Debug\netcoreapp3.1\FE.Weather.Models.AssemblyInfo.cs
+C:\Users\Fajar Eureka\Desktop\FE.Weather\FE.Weather.WebAPI\FE.Weather.Models\obj\Debug\netcoreapp3.1\FE.Weather.Models.csproj.CoreCompileInputs.cache
+C:\Users\Fajar Eureka\Desktop\FE.Weather\FE.Weather.WebAPI\FE.Weather.Models\obj\Debug\netcoreapp3.1\FE.Weather.Models.dll
+C:\Users\Fajar Eureka\Desktop\FE.Weather\FE.Weather.WebAPI\FE.Weather.Models\obj\Debug\netcoreapp3.1\FE.Weather.Models.pdb
