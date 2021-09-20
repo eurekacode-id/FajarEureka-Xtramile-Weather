@@ -46,21 +46,21 @@ namespace FE.Weather.Repositories
             if (paramBuilder.Length > 0) { paramBuilder.Insert(0, "?"); }
             #endregion Build Param
 
-            string result = GetAsync("", paramBuilder.ToString());
-            //string result = @"{ 'coord':{ 'lon':103.8501,'lat':1.2897},
-            //                'weather':[{ 'id':803,'main':'Clouds','description':'broken clouds','icon':'04d'}],
-            //                'base':'stations',
-            //                'main':{ 'temp':300.78,'feels_like':304.75,'temp_min':297.23,'temp_max':301.12,'pressure':1011,'humidity':83},
-            //                'visibility':10000,
-            //                'wind':{ 'speed':2.06,'deg':150},
-            //                'clouds':{ 'all':75},
-            //                'dt':1630888745,
-            //                'sys':{ 'type':1,'id':9470,'country':'SG','sunrise':1630882759,'sunset':1630926430},
-            //                'timezone':28800,
-            //                'id':1880252,
-            //                'name':'Singapore',
-            //                'cod':200}";
-            
+            //string result = GetAsync("", paramBuilder.ToString());
+            string result = @"{ 'coord':{ 'lon':103.8501,'lat':1.2897},
+                            'weather':[{ 'id':803,'main':'Clouds','description':'broken clouds','icon':'04d'}],
+                            'base':'stations',
+                            'main':{ 'temp':300.78,'feels_like':304.75,'temp_min':297.23,'temp_max':301.12,'pressure':1011,'humidity':83},
+                            'visibility':10000,
+                            'wind':{ 'speed':2.06,'deg':150},
+                            'clouds':{ 'all':75},
+                            'dt':1630888745,
+                            'sys':{ 'type':1,'id':9470,'country':'SG','sunrise':1630882759,'sunset':1630926430},
+                            'timezone':28800,
+                            'id':1880252,
+                            'name':'Singapore',
+                            'cod':200}";
+
             dynamic response = Newtonsoft.Json.JsonConvert.DeserializeObject(result);
             
             DateTime dtDateTime = new DateTime(1970, 1, 1, 0, 0, 0, 0, System.DateTimeKind.Utc);
